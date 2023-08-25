@@ -2,7 +2,7 @@ import './styles/App.css';
 import Header from './components/Header.js';
 import Image1 from './components/Image1.js';
 import Text1 from './components/MainText.js';
-//import CircleDrawing from './components/Circles';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <div className = "contentContainer">
         <Text1 />
         <Image1 />
-
       </div>
+        <Skills />
     </div>
   );
 }
