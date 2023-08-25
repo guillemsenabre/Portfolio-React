@@ -5,8 +5,9 @@
 }
 
 .contentContainer {
+    height: 100vh;
     display: flex;
-    flex: 1;
+    flex: 0 0 auto;
     flex-direction: row;
     top: 50%;
     justify-content: space-around;
