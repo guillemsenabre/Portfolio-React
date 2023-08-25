@@ -15,7 +15,7 @@
   margin: 0 20px;
 }
 
-.header nav a {
+.header nav Button {
   text-decoration: none;
   color: white;
   font-size: 15px;
@@ -23,7 +23,7 @@
   transition: text-decoration 1s;
 }
 
-.header nav li:not(.contactButton) a:hover {
+.header nav li:not(.contactButton) Button:hover {
   text-decoration: underline;
 }
 
@@ -31,7 +31,7 @@
 
 /************* CONTACT BUTTON STYLE *******************/
 
-.header nav li.contactButton a {
+.header nav li.contactButton Button {
   display: block;
   color: black;
   text-shadow: none;
@@ -47,7 +47,7 @@
   transition: background-color 0.1s, border-color 0.1s; /* Add transition effects */
 }
 
-.header nav li.contactButton:hover a {
+.header nav li.contactButton:hover Button {
   color: white; /* Change the text color on hover */
 }
 
