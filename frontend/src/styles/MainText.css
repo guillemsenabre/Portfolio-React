@@ -1,6 +1,32 @@
- 
-.textContainer p {
+ .textContainer p {
     color: white;
     font-size: 28px;
   }
-  
+
+.textContainer h1 {
+  color: white;
+  font-size: 36;
+}
+
+
+@keyframes changeWord {
+  0%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.changingWordContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.changingWord {
+  border-radius: 5px;
+  background-color: white;
+  padding: 0 5px;
+  color: black;
+  font-size: 26px;
+}
