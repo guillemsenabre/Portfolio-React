@@ -5,9 +5,9 @@ function Header() {
         <header className="header">
             <nav>
                 <ul>
-                    <li><a href='/'>Home</a></li>
-                    <li><a href='/'>About</a></li>
-                    <li><a href='/'>Contact</a></li>
+                    <li><a href='/'>ABOUT</a></li>
+                    <li className = "contactButton"><a href='/'>CONTACT</a></li>
+                    <li><a href='/'>PROJECTS</a></li>
                 </ul>
             </nav>
         </header>
