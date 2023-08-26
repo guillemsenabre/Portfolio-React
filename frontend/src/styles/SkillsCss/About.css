@@ -1,0 +1,10 @@
+.aboutContainer {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.aboutText {
+    display: flex;
+    font-weight: lighter;
+}

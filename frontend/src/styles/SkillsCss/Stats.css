@@ -1,0 +1,10 @@
+.statsContainer {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.statsText {
+    display: flex;
+    font-weight: lighter;
+}

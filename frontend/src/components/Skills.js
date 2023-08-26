@@ -9,10 +9,8 @@ function Skills() {
     <div className="skillsContainer" id='skillsPage'>
       <Stats />
       <About />
-
-      
     </div>
-  );
+  ); 
 }
 
 export default Skills;
