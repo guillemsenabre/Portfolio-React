@@ -16,7 +16,7 @@ function Text1() {
 
     return (
         <div className="textContainer">
-            <h1>HI I'M GUILLEM!</h1>
+            <h1>Hi im Guillem!</h1>
             <p>
                 Currently studying electronics <br />
                 engineering with a specific <br />
