@@ -10,8 +10,7 @@ function Skills() {
       <Stats />
       <About 
         cmdImg = "/images/cmdIcon.png"
-        title="About Me"
-        content="G:\Senabre\Prades>"
+        title="About Me" 
       />
     </div>
   ); 
