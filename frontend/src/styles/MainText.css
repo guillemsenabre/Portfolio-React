@@ -4,7 +4,7 @@
   text-shadow: 0px 0px 100px rgb(165, 149, 255);
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: linear-gradient(to right, white, rgb(166, 147, 255));
+  background-image: linear-gradient(to right, white, gray);
   color: transparent;
 }
 
@@ -14,7 +14,7 @@
     text-shadow: 0 0 70px rgb(62, 38, 196);
     background-clip: text;
     -webkit-background-clip: text;
-    background-image: linear-gradient(to right, white, rgb(166, 147, 255));
+    background-image: linear-gradient(to right, white, gray);
     color: transparent;
   }
 
