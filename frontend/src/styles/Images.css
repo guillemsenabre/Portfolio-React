@@ -6,32 +6,77 @@
 
 .html_img {
   height: 6vh;
-  transform: rotate(32deg) translateY(15vh) translateX(10vh);
-  border: 1px solid white;
   padding: 20px;
-  border-radius: 50%;
+  animation: orbitAnimation1 70s linear infinite alternate;
+}
+
+@keyframes orbitAnimation1 {
+  0% {
+    transform: rotate(0deg) translateY(50vh) translateX(15vh);
+  }
+  100% {
+    transform: translateY(50vh) translateX(10vh) rotate(180deg);
+  }
 }
 
 .css_img {
   height: 3vh;
-  transform: rotate(2deg) translateY(45vh) translateX(35vh);
-  border: 1px solid white;
   padding: 20px;
-  border-radius: 50%;
+  animation: orbitAnimation2 70s linear infinite alternate;
+}
+
+@keyframes orbitAnimation2 {
+  0% {
+    transform: rotate(2deg) translateY(45vh) translateX(35vh);
+  }
+  100% {
+    transform: translateY(40vh) translateX(10vh) rotate(170deg);
+  }
 }
 
 .js_img {
   height: 8vh;
-  transform: rotate(-2deg) translateY(70vh) translateX(10vh);
-  border: 1px solid white;
   padding: 20px;
-  border-radius: 50%;
+  border: 2px solid transparent;
+  animation: orbitAnimation3 70s linear infinite alternate;
+}
+
+@keyframes orbitAnimation3 {
+  0% {
+    transform: rotate(-2deg) translateY(35vh) translateX(0vh);
+  }
+  100% {
+    transform: translateY(15vh) translateX(10vh) rotate(260deg);
+  }
 }
 
 .py_img {
   height: 4vh;
-  transform: rotate(12deg) translateY(55vh) translateX(-20vh);
-  border: 1px solid white;
   padding: 20px;
-  border-radius: 50%;
+  animation: orbitAnimation4 69s linear infinite alternate;
+}
+
+@keyframes orbitAnimation4 {
+  0% {
+    transform: rotate(60deg) translateY(50vh) translateX(10vh);
+  }
+  100% {
+    transform: translateY(50vh) translateX(-30vh) rotate(230deg);
+  }
+}
+
+.react_img {
+  height: 11vh;
+  padding: 20px;
+  border: 2px solid transparent;
+  animation: orbitAnimation5 68s linear infinite alternate;
+}
+
+@keyframes orbitAnimation5 {
+  0% {
+    transform: rotate(0deg) translateY(35vh) translateX(0vh);
+  }
+  100% {
+    transform: translateY(15vh) translateX(10vh) rotate(130deg);
+  }
 }

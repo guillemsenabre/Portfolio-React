@@ -2,10 +2,25 @@ import '../../styles/SkillsCss/About.css';
 import '../../styles/Skills.css';
 
 
-function About() {
+//import Button from '../Button';
+
+
+function About({ cmdImg, title, content}) {
     return (
+
+        /*<div className='aboutContainer'>
+            <div className='aboutButton'>
+                <Button>ABOUT</Button>
+            </div>
+        </div>*/
+
         <div className='aboutContainer'>
-            <h1 className='aboutText'>About</h1>
+            <div className="cmd-window">
+                <div className="cmd-title">
+                    {cmdImg && <img src={cmdImg} alt="Command Img" />} {title}
+                </div>
+                <div className="cmd-content">{content}</div>
+            </div>
         </div>
     );
 }
