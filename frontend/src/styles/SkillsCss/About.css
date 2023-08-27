@@ -7,6 +7,7 @@
 }
 
 
+/**** ABOUT CMD ****/
 
 .cmd-window {
     width: 42vw;
@@ -20,6 +21,7 @@
   
   .cmd-title {
     background-color: #ffffff;
+    justify-content: center;
     color: black;
     padding: 5px;
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -30,43 +32,3 @@
     height: calc(100% - 30px);
     overflow-y: auto;
   }
-
-
-
-
-
-
-
-
-/******* BUTTON HEADER ********/
-
-.aboutButton {
-    display: block;
-    margin-top: 10vh;
-    color: rgb(255, 255, 255);
-    text-shadow: none;
-  }
-  
-.aboutButton Button{
-    display: inline-flex;
-    align-items: center; 
-    padding: 1vh 20vw;
-    background-color: rgb(0, 0, 0);
-    border-radius: 1px;
-    border: 1px solid rgb(255, 255, 255);
-    animation: glowingAnimation 5s infinite;
-}
-
-@keyframes glowingAnimation {
-    0% {
-        box-shadow: 0 0 15px white;
-    }
-
-    50% {
-        box-shadow: none;
-    }
-
-    100% {
-        box-shadow: 0 0 15px white;
-    }
-}

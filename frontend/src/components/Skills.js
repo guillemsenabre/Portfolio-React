@@ -10,8 +10,8 @@ function Skills() {
       <Stats />
       <About 
         cmdImg = "/images/cmdIcon.png"
-        title="Command Prompt"
-        content="Welcome to the React Command Prompt. Type your commands here..."
+        title="About Me"
+        content="G:\Senabre\Prades>"
       />
     </div>
   ); 
