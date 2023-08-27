@@ -3,7 +3,7 @@ import "../styles/Images.css"
 function Image1() {
     return (
         <div>
-            <img src="/images/media/gui_cube_blur.png" alt = "Test" className = "gui_cube"/>
+            <img src="/images/gui_cube_blur.png" alt = "Test" className = "gui_cube"/>
         </div>
     );
 }

@@ -8,7 +8,10 @@ function Skills() {
   return (
     <div className="skillsContainer" id='skillsPage'>
       <Stats />
-      <About />
+      <About 
+        cmdImg = "/images/cmdIcon.png"
+        title="About Me" 
+      />
     </div>
   ); 
 }

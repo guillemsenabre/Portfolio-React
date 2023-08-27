@@ -2,9 +2,56 @@
     display: flex;
     flex-basis: 50%;
     justify-content: center;
+    margin-top: 15vh;
+    margin-right: 2cap;
 }
 
-.aboutText {
+
+/**** ABOUT CMD ****/
+
+.cmd-window {
+    width: 42vw;
+    height: 70vh;
+    background-color:#0c0c0c;
+    border: 1px solid #191919;
+    overflow: hidden;
+    font-family: "Courier New", monospace;
+    color: #ffffff;
+  }
+  
+  .cmd-title {
+    background-color: #ffffff;
+    justify-content: center;
+    color: black;
+    padding: 5px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  
+  .cmdContent {
     display: flex;
-    font-weight: lighter;
-}
+    flex-direction: column;
+    padding: 10px;
+    height: calc(100% - 30px);
+    overflow-y: auto;
+  }
+
+
+
+
+  /******* TYPE WRITER ******/
+
+  .typewriter {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(30) infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
