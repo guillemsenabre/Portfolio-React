@@ -4,10 +4,9 @@ import React, { useState, useEffect } from 'react';
 
 import Button from './Button';
 
-function Header() {
+function Header({ showContact, setShowContact }) {
 
     const [scrollSkillBtn, setScrollSkillBtn] = useState(false);
-    const [showContact, setShowContact] = useState(false);
 
     useEffect (() => {
         if (scrollSkillBtn) {
