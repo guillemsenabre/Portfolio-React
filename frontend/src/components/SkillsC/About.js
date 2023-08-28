@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react';
-
 import '../../styles/SkillsCss/About.css';
 import '../../styles/Skills.css';
 
@@ -8,22 +6,6 @@ import '../../styles/Skills.css';
 
 
 function About({ cmdImg, title, displayText}) {
-    /*const [displayText, setDisplayText] = useState('');
- 
-    useEffect(() => {
-        let currentIndex = 0;
-
-        const interval = setInterval(() => {
-            if (currentIndex < text.length) {
-                setDisplayText((prevText) => prevText + text[currentIndex]);
-                currentIndex++;
-            } else {
-                clearInterval(interval);
-            }
-        }, 100);
-
-        return () => clearInterval(interval);
-    }, [text]);*/
     return (
         <div className='aboutContainer'>
             <div className="cmd-window">
@@ -64,8 +46,6 @@ function About({ cmdImg, title, displayText}) {
                         {"Teamwork"} <br />
                         {"Problem Solving"} <br />
                         {"Critical Thinking"} <br />
-
-
                     </span>
                 </div>
             </div>
