@@ -1,11 +1,13 @@
 import '../styles/Header.css';
 
 import React, { useState, useEffect } from 'react';
+
 import Button from './Button';
 
 function Header() {
 
     const [scrollSkillBtn, setScrollSkillBtn] = useState(false);
+    const [showContact, setShowContact] = useState(false);
 
     useEffect (() => {
         if (scrollSkillBtn) {
@@ -19,12 +21,18 @@ function Header() {
         setScrollSkillBtn(true);
       };
 
+    const toggleContact = () => {
+        setShowContact(!showContact);
+    };
+
     return (
         <header className="header">
             <nav>
                 <ul>
                     <li><Button onClick={handleScrollToSkills}>ABOUT</Button></li>
-                    <li className = "contactButton"><Button>CONTACT</Button></li>
+                    <li className = "contactButton">
+                        <Button onClick={toggleContact}>CONTACT</Button>
+                    </li>
                     <li><Button>PROJECTS</Button></li>
                 </ul>
             </nav>
