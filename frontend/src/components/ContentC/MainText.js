@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import '../styles/MainText.css';
+import '../../styles/ContentCss/MainText.css';
 
 const words = ['robotics', 'web development', 'deep learning']; // Add more words here
 

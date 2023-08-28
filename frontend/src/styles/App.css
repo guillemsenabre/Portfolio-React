@@ -4,7 +4,7 @@
     min-height: 100vh;
 }
 
-.contentContainer {
+.appContainer {
     height: 90vh;
     display: flex;
     flex: 0 0 auto;

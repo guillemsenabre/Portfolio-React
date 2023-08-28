@@ -1,4 +1,4 @@
-import "../styles/Images.css"
+import "../../styles/ContentCss/Image1.css"
 
 function Image1() {
     return (
