@@ -1,11 +1,10 @@
-import '../../styles/ContentCss/Contact.css'
-
 import React from 'react';
+import TextBox from './TextBox';
 
-function Contact({showContent}) {
+function Contact() {
   return (
     <div className="contactBox">
-      <p>Contact Information</p>
+      <TextBox />
     </div>
   );
 }
