@@ -3,18 +3,37 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    
   }
   
   .textInput {
-    width: 100%;
-    padding: 8px;
+    width: 22vw;
+    padding: 12px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     border-radius: 4px;
+    background-color: #000;
+    color: #ffffff;
+    caret-color: #fff; /* Color of the blinking cursor */
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+  }
+
+  .textBox {
+    resize: vertical;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  
+  .textInput::placeholder {
+    color: #999; /* Color of the placeholder text */
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .submittedText {
-    color: #007bff;
+    color: #ffffff;
     margin-top: 10px;
   }
   
