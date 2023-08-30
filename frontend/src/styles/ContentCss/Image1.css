@@ -1,4 +1,24 @@
-.gui_cube {
-    width: 450px;
+.rightContainer {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-right: 2rem;
+  }
+  
+  .guiCube {
+    width: 400px;
     height: auto;
   }
+  
+  .hidden {
+    opacity: 0;
+    transition: opacity 1.5s ease-out;
+  }
+  
+  .fadeIn {
+    opacity: 1;
+    transition: opacity 2s ease-in;
+  }
+  
