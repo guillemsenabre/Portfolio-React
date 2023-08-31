@@ -1,0 +1,25 @@
+.iconsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transform: translateX(-90px);
+}
+
+.githubImg {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
+
+.gmailImg {
+    width: 50px;
+    height: auto;
+}
+
+.iconsContainer.fadeIn {
+    opacity: 1;
+    transition: opacity 3.5s ease-in-out, transform 2s ease-in-out;
+    transform: translateX(0);
+}

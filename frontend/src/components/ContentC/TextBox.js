@@ -16,7 +16,7 @@ function TextBox() {
 
   return (
     <div className="textboxContainer">
-      <form onSubmit={handleInputSubmit}>
+      <form onSubmit={handleInputSubmit} className='textBox'>
         <input
           type="text"
           value={textInput}
