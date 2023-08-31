@@ -20,6 +20,6 @@
 
 .iconsContainer.fadeIn {
     opacity: 1;
-    transition: opacity 3.5s ease-in-out, transform 2s ease-in-out;
+    transition: opacity 3.5s ease-in-out, transform 2s cubic-bezier(.68,-0.55,.27,1.55);
     transform: translateX(0);
 }
