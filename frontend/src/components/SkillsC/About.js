@@ -39,6 +39,7 @@ function About({ cmdImg, title, displayText}) {
                         {"React"} <br />
                         {"AI (NLP)"} <br />
                         {"CAD"} <br />
+                        {"ROS 2"} <br />
                         {"Circuit Design"} <br />
                         {""} <br />
                         {">>> Personal Skills"} <br />
