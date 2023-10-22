@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import '../../styles/ContentCss/TextBox.css';
 
 function TextBox() {
@@ -9,8 +10,9 @@ function TextBox() {
     setTextInput(event.target.value);
   };
 
-  const handleInputSubmit = (event) => {
+  const handleInputSubmit = async (event) => {
     event.preventDefault();
+    await axios.post('http://localhost:3000/send-email', { text: textInput });
     setSubmitted(true);
   };
 
