@@ -9,9 +9,9 @@ def send_email():
     
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('your-email@gmail.com', 'your-email-password')
+    server.login('exampleEmail@gmail.com', 'examplePassword')
     
-    server.sendmail('your-email@gmail.com', 'recipient-email@example.com', text)
+    server.sendmail('exampleEmail@gmail.com', 'exampleEmail2@example.com', text)
     server.quit()
     
     return jsonify({'message': 'Email sent successfully'}), 200
